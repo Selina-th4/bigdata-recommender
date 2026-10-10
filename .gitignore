@@ -1,0 +1,28 @@
+# Data (REES46 CSV rất lớn, không commit)
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Spark / checkpoints
+checkpoint/
+spark-warehouse/
+metastore_db/
+derby.log
+model/artifacts/
+
+# Node / web
+node_modules/
+dist/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
